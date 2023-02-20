@@ -36,6 +36,10 @@ class _MyHomePageState extends State<MyHomePage> {
   // this method is responsible for changing color value
   void changeColor() {
     setState(() {
+      //A => Alpha
+      //R => Red
+      //G => Green
+      //B => Blue
       color = Color.fromARGB(
         random.nextInt(255),
         random.nextInt(255),
